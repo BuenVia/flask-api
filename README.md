@@ -17,7 +17,7 @@ if __name__ == "__main__":
 ### Setup config
 *app.py*
 
-```py
+```py {id="python-print" class="blue large" data-filename="app.py"}
 app.config['PROPAGATE_EXCEPTIONS'] = True
 app.config['API_TITLE'] = "Stores REST API"
 app.config['API_VERSION'] = "v1"
